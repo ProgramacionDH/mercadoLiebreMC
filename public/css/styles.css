@@ -1,1 +1,35 @@
-.navbar {font-family: 'Roboto', sans-serif;}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: none;
+}
+.navbar{
+    color: #ffffff;
+    background-color: #03264C;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+.burger-menu i{
+    color: white;
+    margin-bottom: 0px;
+   
+} 
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 16px;
+}
