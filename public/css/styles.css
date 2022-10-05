@@ -53,7 +53,7 @@ header{
 
 .upper button{
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 
@@ -170,13 +170,13 @@ i{
     border-top: solid 1px #d4baba;
 }
 .product-price{
-    margin:10px;
+    margin:11px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .green{
-    color:#39b54a;
+    color:#14ee31;
    vertical-align: middle;
    margin-bottom: 0px;
    width: 2em;  
@@ -206,19 +206,19 @@ i{
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: all 450ms;
+    transition: all 420ms;
 }
 .product-item:hover .detail{
-    opacity: 0;
+    opacity: 0,5;
 }
 
 main section article i{
     display: block;
-    font-size: 16px;
+    font-size: 17px;
     padding: 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid #39b54a;
+    border: 1px solid #2eb841;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
@@ -244,7 +244,7 @@ footer .payments{
 }
 
 footer .payments h3{
-    color: #666;
+    color: rgb(82, 81, 81);
 }
 
 footer .payments p{
@@ -256,11 +256,11 @@ footer .payments p{
 
 footer .payments i{
     font-size: 2em;
-    color: #1259C3;
+    color: #093d8b;
     transition: all 0.7s;
 }
 footer .payments:hover i{
-   color:#39b54a;
+   color:#7fb539;
 }
 
 footer .legal{
@@ -272,7 +272,7 @@ footer .legal{
 @media (min-width: 768px){
    
     article:hover{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0px 0px 11px rgb(100, 100, 100);
     }
     main section{
         flex-wrap: wrap;
@@ -333,7 +333,7 @@ footer .legal{
 
     }
     .compras{
-        max-width: 250px;
+        max-width: 240px;
         text-align: right;
     }
     .banner{

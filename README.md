@@ -1,1 +1,1 @@
-Proyecto de Mercado Liebre de Marcelo Canay.
+Proyecto Mercado Liebre de Marcelo Canay para Digital House.
