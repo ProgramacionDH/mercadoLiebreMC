@@ -3,17 +3,17 @@ const path = require('path');
 
 const app = express();
 
-app.get('/', function (_req, res) {
-  res.sendFile(path.join(__dirname, "./views/home.html"));
-});
+app.get('/', (_req, res) => {
+    res.sendFile(path.join(__dirname, "./views/home.html"));
+  });
 
-app.get('/register', function (_req, res) {
-  res.sendFile(path.join(__dirname, "./views/register.html"));
-});
+app.get('/register', (_req, res) => {
+    res.sendFile(path.join(__dirname, "./views/register.html"));
+  });
 
-app.get('/login', function (_req, res) {
-  res.sendFile(path.join(__dirname, "./views/login.html"));
-});
+app.get('/login', (_req, res) => {
+    res.sendFile(path.join(__dirname, "./views/login.html"));
+  });
 
 app.use(express.static(path.join(__dirname, "./public")));
 
