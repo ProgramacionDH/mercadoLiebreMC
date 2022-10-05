@@ -67,7 +67,7 @@ header{
 }
 
 
-.nav-bar{
+.navbar{
     display: none;
 }
 .burger-menu{
@@ -138,7 +138,7 @@ i{
 
 .holders{
     font-size: 24px;
-    color: #666;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
